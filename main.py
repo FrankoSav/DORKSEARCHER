@@ -6,24 +6,25 @@ import pyfiglet
 
 
 def banner():
-    banner = "L0C4L-SC4MM3R"
+    banner = "DORK-SEARCHER"
     print(banner)
+    print("By:FrankoSav")
 
 
 banner()
 
 
 def menu():
-    print("1. Buscar sitios web vulnerables a inyección SQL")
+    print("1. Find websites vulnerable to SQL injection")
     print("2. Salir")
-    choice = input("Seleccione una opción: ")
+    choice = input("Select A Option: ")
     if choice == "1":
         search_dorks()
     elif choice == "2":
         return
         exit()
     else:
-        print("Opción inválida. Intente de nuevo.")
+        print("Invalid option. Try again")
         menu()
 
 
@@ -32,7 +33,7 @@ def search_dorks():
         with open("dorks.txt", "r") as file:
             dorks = file.read().splitlines()
     except FileNotFoundError:
-        print("Archivo no encontrado, por favor crea un archivos dorks.txt en tu directorio home.")
+        print("File not found, please create a dorks.txt file in your home directory.")
         exit()
 
     for dork in dorks:
