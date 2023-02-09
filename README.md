@@ -1,2 +1,2 @@
 # DORKSEARCHER 👨‍💻
-![Sin título-2](https://user-images.githubusercontent.com/117610367/217863813-588a3e79-bc4d-4ec0-979a-a9a78b81c8b8.jpg)
+![Sin título-2](https://user-images.githubusercontent.com/117610367/217864104-6a4a5c29-6989-4477-8665-ea1aaf4e4046.jpg)
